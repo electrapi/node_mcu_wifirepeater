@@ -1,0 +1,18 @@
+Node Mcu ESP8266 Wifi Repeater
+
+1. Download Flash Tool from 
+https://www.espressif.com/en/support/download/other-tools
+
+2. Download wifi repeater firmware
+https://github.com/martin-ger/esp_wifi_repeater
+
+3. Upload firmware via flas tools
+
+4. Reconnect Node mcu
+
+5. Connect to MyAP wifi ssid. This is the node mcu new wifi AP. 
+
+6. Go to http://192.168.4.1/ and set your wifi ssid credntials. This will connect home wifi and share internet 
+over NodeMcu MyAP access poin
+
+7. Connect with mobile or any device to MyAP wifi access point and you can share the internet.
